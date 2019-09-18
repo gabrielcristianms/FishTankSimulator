@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scripts/Simulacao.gd" type="Script" id=1]
+
+[node name="Simulacao" type="Node2D"]
+script = ExtResource( 1 )
+mutationRate = 0.465
+initialPopulation = 100
+foodsPerDay = 50
+speedRangeMin = 30
+speedRangeMax = 40
+energyRangeMin = 8
+energyRangeMax = 16
+radarRangeMin = 60
+radarRangeMax = 100
